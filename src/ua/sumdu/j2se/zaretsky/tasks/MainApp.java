@@ -78,7 +78,7 @@ public class MainApp extends Application {
         this.primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
             public void handle(WindowEvent we) {
                 writeInFile();
-                // exit = true;
+                exit = true;
                 // System.out.println("Stage is closing");
                 log.info("Program close");
 
@@ -217,66 +217,14 @@ public class MainApp extends Application {
     }
 
 
-    public void startTask() {
-        Runnable task = new Runnable() {
-            public void run() {
-                runTask();
-            }
-        };
-
-
-        // Run the task in a background thread
-
-        Thread backgroundThread = new Thread(task);
-
-        // Terminate the running thread if the application exits
-
-        backgroundThread.setDaemon(true);
-
-        // Start the thread
-
-        backgroundThread.start();
-    }
-
-
-    public void runTask() {
-
-        for (int i = 1; i <= 10; i++)
-
-        {
-            try {
-                String status = "Processing " + i + " of " + 10;
-
-                System.out.println(status);
-
-                Alert alert = new Alert(Alert.AlertType.WARNING);
-                alert.initOwner(getPrimaryStage());
-                alert.setTitle("Attention");
-                alert.setHeaderText("Task will start in the short run");
-
-                alert.showAndWait();
-                //textArea.appendText(status + "\n");
-
-                Thread.sleep(1000);
-
-            } catch (InterruptedException e)
-
-            {
-                e.printStackTrace();
-
-            }
-
+    private void writeInFile() {
+        try {
+            TaskIO.writeBinary(tasks, FILE);
+        } catch (IOException e) {
+            e.printStackTrace();
+            log.catching(e);
         }
-
     }
-private void writeInFile(){
-    try {
-        TaskIO.writeBinary(tasks, FILE);
-    } catch (IOException e) {
-        e.printStackTrace();
-        log.catching(e);
-    }
-}
 
     public static void main(String[] args) {
 
@@ -359,3 +307,56 @@ private void writeInFile(){
 // showTaskOverview();
 
 //detector = new Detector(tasks,300000, 5000, this);
+
+  /*  public void startTask() {
+        Runnable task = new Runnable() {
+            public void run() {
+                runTask();
+            }
+        };
+
+
+        // Run the task in a background thread
+
+        Thread backgroundThread = new Thread(task);
+
+        // Terminate the running thread if the application exits
+
+        backgroundThread.setDaemon(true);
+
+        // Start the thread
+
+        backgroundThread.start();
+    }
+*/
+
+   /* public void runTask() {
+
+        for (int i = 1; i <= 10; i++)
+
+        {
+            try {
+                String status = "Processing " + i + " of " + 10;
+
+                System.out.println(status);
+
+                Alert alert = new Alert(Alert.AlertType.WARNING);
+                alert.initOwner(getPrimaryStage());
+                alert.setTitle("Attention");
+                alert.setHeaderText("Task will start in the short run");
+
+                alert.showAndWait();
+                //textArea.appendText(status + "\n");
+
+                Thread.sleep(1000);
+
+            } catch (InterruptedException e)
+
+            {
+                e.printStackTrace();
+
+            }
+
+        }
+
+    }*/
