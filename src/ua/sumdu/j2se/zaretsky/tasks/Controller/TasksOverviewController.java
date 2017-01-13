@@ -102,10 +102,10 @@ public class TasksOverviewController {
     }
 
     /**
-     * Заполняет все текстовые поля, отображая подробности об адресате.
-     * Если указанный адресат = null, то все текстовые поля очищаются.
+     * Заполняет все текстовые поля.
+     * Если задача = null, то все текстовые поля очищаются.
      *
-     * @param task — адресат типа Person или null
+     * @param task — задача типа Task или null
      */
     private void showTaskDetails(Task task) {
         if (task != null) {
@@ -201,7 +201,7 @@ public class TasksOverviewController {
 
     /**
      * Вызывается, когда пользователь кликает по кнопка Edit...
-     * Открывает диалоговое окно для изменения выбранного адресата.
+     * Открывает диалоговое окно для изменения выбранной задачи.
      */
     @FXML
     private void handleEditTask()  {
