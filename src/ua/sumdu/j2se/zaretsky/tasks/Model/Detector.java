@@ -6,6 +6,7 @@ import javafx.stage.Stage;
 import ua.sumdu.j2se.zaretsky.tasks.MainApp;
 import ua.sumdu.j2se.zaretsky.tasks.Util.DateUtil;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -29,14 +30,14 @@ public class Detector extends Thread {
     @Override
     public void run() {
         while (!mainApp.isExit()) {
-            long currentTime = new Date().getTime();
 
-            TaskList incomingTasks = (TaskList) Tasks.incoming(tasks, new Date(currentTime), new Date(currentTime + notifyPeriodInMillis));
+            Date currentTime = new Date();
+            TaskList incomingTasks = (TaskList) Tasks.incoming(tasks, currentTime, new
+                    Date(currentTime.getTime() + notifyPeriodInMillis));
             if (incomingTasks != null) {
                 System.out.println("Nearest tasks");
                 for (Task t : incomingTasks) {
-                    System.out.print("Time: " + DateUtil.format(t.nextTimeAfter(new Date
-                            (currentTime))));
+                    System.out.print("Time: " + DateUtil.format(t.nextTimeAfter(currentTime)));
                     System.out.println(" " + t.getTitle());
                 }
             }
