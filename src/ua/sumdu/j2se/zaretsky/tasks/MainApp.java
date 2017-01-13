@@ -39,7 +39,7 @@ public class MainApp extends Application {
     private final Logger log = LogManager.getLogger(MainApp.class.getSimpleName());
     private static TaskList tasks = new LinkedTaskList();
     public static final File FILE = new File("tasks");
-    //Detector detector;
+    Detector detector;
     private boolean exit = false;
     private ObservableList<Task> tasksData = FXCollections
             .observableArrayList();
@@ -73,7 +73,8 @@ public class MainApp extends Application {
 
         initRootLayout();
 
-
+        detector = new Detector(tasks,600000,this);
+        detector.start();
         //при закрытии программы записиваем все задачи в файл
         this.primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
             public void handle(WindowEvent we) {
@@ -81,6 +82,7 @@ public class MainApp extends Application {
                 exit = true;
                 // System.out.println("Stage is closing");
                 log.info("Program close");
+                detector.stop();//close thread with notify
 
             }
         });
@@ -89,11 +91,12 @@ public class MainApp extends Application {
     public MainApp() {
         try {
             TaskIO.readBinary(tasks, FILE);
+
             tasksData.clear();
+            //add tasks in ObservableList
             for (Task t : tasks) {
                 tasksData.add(t);
             }
-
         } catch (IOException e) {
             e.printStackTrace();
             log.catching(e);
@@ -129,6 +132,7 @@ public class MainApp extends Application {
             e.printStackTrace();
             log.catching(e);
         }
+
     }
 
 
