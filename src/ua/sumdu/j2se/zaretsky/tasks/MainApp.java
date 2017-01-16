@@ -38,7 +38,7 @@ import java.util.Date;
 public class MainApp extends Application {
     private final Logger log = LogManager.getLogger(MainApp.class.getSimpleName());
     private static TaskList tasks = new LinkedTaskList();
-    public static final File FILE = new File("tasks");
+    public static final File FILE = new File("resources/tasks");
     Detector detector;
     private boolean exit = false;
     private ObservableList<Task> tasksData = FXCollections
@@ -197,8 +197,9 @@ public class MainApp extends Application {
             dialogStage.setScene(scene);
 
             // Передаём задачу в контроллер.
-            //AllTasksInPeriodController controller = loader.getController();
-            //controller.setDialogStage(dialogStage);
+            AllTasksInPeriodController controller = loader.getController();
+            controller.setDialogStage(dialogStage);
+            controller.setDates(startPeriod,endPeriod);
             //controller.setData(startPeriod, endPeriod);
 
 

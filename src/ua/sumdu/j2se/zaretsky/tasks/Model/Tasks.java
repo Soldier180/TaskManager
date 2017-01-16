@@ -42,7 +42,8 @@ public class Tasks {
 
     public static SortedMap<Date, Set<Task>> calendar(Iterable<Task> tasks, Date
             start, Date end) {
-        SortedMap<Date, Set<Task>> dateSetSortedMap = new TreeMap<>(new CompareByDate());
+        SortedMap<Date, Set<Task>> dateSetSortedMap = new TreeMap<>(new
+                CompareByDate().reversed());
         TreeMap<Date, Task> tempResult;
         for (Task task : tasks) {
             tempResult = allTasksInInterval(task, start, end);

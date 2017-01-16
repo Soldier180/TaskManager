@@ -56,3 +56,71 @@ java.io.FileNotFoundException: tas (Не удается найти указан�
 2017-01-13 15:18:22 INFO  MainApp - Open program
 2017-01-13 16:11:50 INFO  MainApp - Open program
 2017-01-13 16:12:04 INFO  MainApp - Program close
+2017-01-14 00:24:04 INFO  MainApp - Open program
+2017-01-14 00:24:49 INFO  MainApp - Program close
+2017-01-15 23:08:50 INFO  MainApp - Open program
+2017-01-15 23:09:06 INFO  MainApp - Program close
+2017-01-15 23:24:41 INFO  MainApp - Open program
+2017-01-15 23:24:48 INFO  MainApp - Program close
+2017-01-15 23:29:13 INFO  MainApp - Open program
+2017-01-15 23:29:23 INFO  MainApp - Program close
+2017-01-16 16:02:07 INFO  MainApp - Open program
+2017-01-16 16:02:28 INFO  MainApp - Program close
+2017-01-16 16:03:08 INFO  MainApp - Open program
+2017-01-16 16:04:09 INFO  MainApp - Open program
+2017-01-16 16:04:58 INFO  TasksOverviewController - CREATE task: "авпролд" from [2017-01-16 16:11:00.000] to [2017-01-25 17:00:00.000] every [20 minutes] is inactive
+2017-01-16 16:05:14 INFO  TasksOverviewController - EDIT task: "авпролд" from [2017-01-16 16:11:00.000] to [2017-01-25 17:00:00.000] every [20 minutes] is inactive TO "авпролд" from [2017-01-16 16:00:00.000] to [2017-01-25 17:00:00.000] every [20 minutes] is inactive
+2017-01-16 16:05:29 INFO  MainApp - Program close
+2017-01-16 16:05:33 INFO  MainApp - Open program
+2017-01-16 16:05:53 INFO  TasksOverviewController - EDIT task: "авпролд" from [2017-01-16 16:00:00.000] to [2017-01-25 17:00:00.000] every [20 minutes] is inactive TO "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 minutes] is inactive
+2017-01-16 16:05:56 INFO  MainApp - Program close
+2017-01-16 16:05:59 INFO  MainApp - Open program
+2017-01-16 16:06:15 INFO  TasksOverviewController - EDIT task: "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 minutes] is inactive TO "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 minutes]
+2017-01-16 16:06:18 INFO  MainApp - Program close
+2017-01-16 16:06:21 INFO  MainApp - Open program
+2017-01-16 16:06:40 INFO  MainApp - Program close
+2017-01-16 17:32:51 INFO  MainApp - Open program
+2017-01-16 17:32:59 INFO  MainApp - Program close
+2017-01-16 17:33:45 INFO  MainApp - Open program
+2017-01-16 17:33:52 INFO  MainApp - Program close
+2017-01-16 17:36:16 INFO  MainApp - Open program
+2017-01-16 17:38:07 INFO  MainApp - Program close
+2017-01-16 17:45:20 INFO  MainApp - Open program
+2017-01-16 17:45:33 INFO  MainApp - Program close
+2017-01-16 17:45:55 INFO  MainApp - Open program
+2017-01-16 17:46:32 INFO  TasksOverviewController - EDIT task: "Задача 2" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes] TO "Задача 2" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes] is inactive
+2017-01-16 17:46:35 INFO  MainApp - Program close
+2017-01-16 17:53:21 INFO  MainApp - Open program
+2017-01-16 17:53:45 INFO  MainApp - Program close
+2017-01-16 18:02:26 INFO  MainApp - Open program
+2017-01-16 18:02:38 INFO  MainApp - Program close
+2017-01-16 18:14:47 INFO  MainApp - Open program
+2017-01-16 18:14:54 INFO  MainApp - Program close
+2017-01-16 18:21:55 INFO  MainApp - Open program
+2017-01-16 18:56:21 INFO  MainApp - Open program
+2017-01-16 18:56:41 INFO  MainApp - Program close
+2017-01-16 18:58:39 INFO  MainApp - Open program
+2017-01-16 18:59:26 INFO  MainApp - Program close
+2017-01-16 19:19:00 INFO  MainApp - Open program
+2017-01-16 19:19:09 INFO  MainApp - Program close
+2017-01-16 19:33:43 INFO  MainApp - Open program
+2017-01-16 19:34:00 INFO  MainApp - Program close
+2017-01-16 19:34:49 INFO  MainApp - Open program
+2017-01-16 19:35:04 INFO  MainApp - Program close
+2017-01-16 19:38:56 INFO  MainApp - Open program
+2017-01-16 19:39:29 INFO  TasksOverviewController - EDIT task: "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 minutes] TO "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [5 hours]
+2017-01-16 19:39:56 INFO  TasksOverviewController - EDIT task: "Задача 2" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes] is inactive TO "Задача 2" from [2017-01-13 13:11:00.000] to [2017-01-19 20:00:00.000] every [1 day] is inactive
+2017-01-16 19:40:00 INFO  TasksOverviewController - EDIT task: "Задача 2" from [2017-01-13 13:11:00.000] to [2017-01-19 20:00:00.000] every [1 day] is inactive TO "Задача 2" from [2017-01-13 13:11:00.000] to [2017-01-19 20:00:00.000] every [1 day]
+2017-01-16 19:40:15 INFO  TasksOverviewController - EDIT task: "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [5 hours] TO "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [15 hours]
+2017-01-16 19:42:57 INFO  MainApp - Open program
+2017-01-16 19:43:30 INFO  TasksOverviewController - EDIT task: "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 minutes] TO "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 hours]
+2017-01-16 19:43:53 INFO  TasksOverviewController - EDIT task: "авпролд" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 hours] TO "Task for every day" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 hours]
+2017-01-16 19:43:59 INFO  TasksOverviewController - EDIT task: "Task for every day" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [20 hours] TO "Task for every day" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [1 day]
+2017-01-16 19:44:50 INFO  TasksOverviewController - EDIT task: "Задача 3" at [2017-01-13 15:20:00.000] TO "Meat whith friends in cafe" from [2017-01-13 15:20:00.000] to [2017-01-26 00:00:00.000] every [2 days]
+2017-01-16 19:45:08 INFO  MainApp - Program close
+2017-01-16 19:45:13 INFO  MainApp - Open program
+2017-01-16 19:46:27 INFO  TasksOverviewController - EDIT task: "Task for every day" from [2017-01-16 15:14:00.000] to [2017-01-25 17:00:00.000] every [1 day] TO "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-25 17:00:00.000] every [1 day]
+2017-01-16 19:46:50 INFO  TasksOverviewController - CREATE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-26 00:00:00.000] every [1 day]
+2017-01-16 19:47:41 INFO  TasksOverviewController - EDIT task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-25 17:00:00.000] every [1 day] TO "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-20 17:00:00.000] every [1 day]
+2017-01-16 19:48:25 INFO  MainApp - Program close
+2017-01-16 19:50:47 INFO  MainApp - Open program

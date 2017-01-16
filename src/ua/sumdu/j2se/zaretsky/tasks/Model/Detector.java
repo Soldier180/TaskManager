@@ -34,7 +34,7 @@ public class Detector extends Thread {
             Date currentTime = new Date();
             TaskList incomingTasks = (TaskList) Tasks.incoming(tasks, currentTime, new
                     Date(currentTime.getTime() + notifyPeriodInMillis));
-            if (incomingTasks != null) {
+            if (incomingTasks.count != 0) {
                 System.out.println("Nearest tasks");
                 for (Task t : incomingTasks) {
                     System.out.print("Time: " + DateUtil.format(t.nextTimeAfter(currentTime)));
