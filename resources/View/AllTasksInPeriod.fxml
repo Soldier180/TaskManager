@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ua.sumdu.j2se.zaretsky.tasks.Controller.AllTasksInPeriodController">
+   <children>
+      <AnchorPane HBox.hgrow="ALWAYS">
+         <children>
+            <TableView fx:id="allTasksInPeriodTable" prefHeight="464.0" prefWidth="466.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn fx:id="dateColumn" editable="false" prefWidth="174.0" text="Date" />
+                <TableColumn fx:id="taskTitleColumn" prefWidth="290.0" text="Task" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

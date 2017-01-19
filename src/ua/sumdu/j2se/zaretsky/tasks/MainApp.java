@@ -31,6 +31,7 @@ import ua.sumdu.j2se.zaretsky.tasks.Model.Task;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.Date;
 
 
@@ -117,8 +118,10 @@ public class MainApp extends Application {
         try {
             // Загружаем корневой макет из fxml файла.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainApp.class.getResource("view/TasksOverview" +
-                    ".fxml"));
+            URL tasksOverview = new File
+                    ("resources/View/TasksOverview.fxml").toURI().toURL();
+            loader.setLocation(tasksOverview);
+
             rootLayout = loader.load();
 
 
@@ -148,7 +151,9 @@ public class MainApp extends Application {
     public boolean showTaskEditDialog(Task task, boolean newTask) {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainApp.class.getResource("view/TaskEditDialog.fxml"));
+            URL taskEditDialog = new File
+                    ("resources/View/TaskEditDialog.fxml").toURI().toURL();
+            loader.setLocation(taskEditDialog);
             GridPane page = (GridPane) loader.load();
 
             Stage dialogStage = new Stage();
@@ -187,7 +192,8 @@ public class MainApp extends Application {
     public void showAllTasksInPeriod(Date startPeriod, Date endPeriod) {
         try {
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(MainApp.class.getResource("view/AllTasksInPeriod.fxml"));
+            URL allTasksInPeriod = new File("resources/View/AllTasksInPeriod.fxml").toURI().toURL();
+            loader.setLocation(allTasksInPeriod);
             HBox page = (HBox) loader.load();
 
             Stage dialogStage = new Stage();
