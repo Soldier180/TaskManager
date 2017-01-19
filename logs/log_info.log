@@ -349,3 +349,8 @@ java.io.FileNotFoundException: E:\SumDU\VI РєСѓСЂСЃ\JAVA\Task Manager\resources\
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_102]
 2017-01-19 14:11:13 INFO  MainApp - Open program
 2017-01-19 14:11:17 INFO  MainApp - Program close
+2017-01-19 16:11:31 INFO  MainApp - Open program
+2017-01-19 16:11:50 INFO  TasksOverviewController - EDIT task: "Задача 2" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes] is inactive TO "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-19 16:11:55 INFO  MainApp - Program close
+2017-01-19 16:12:07 INFO  MainApp - Open program
+2017-01-19 16:12:16 INFO  MainApp - Program close
