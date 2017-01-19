@@ -33,6 +33,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 
+
 //import static ua.sumdu.j2se.zaretsky.tasks.Model.Detector.PAUSE;
 
 public class MainApp extends Application {
