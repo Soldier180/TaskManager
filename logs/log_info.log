@@ -278,3 +278,74 @@ Caused by: java.lang.ClassNotFoundException: ua.sumdu.j2se.zaretsky.tasks.Contro
 2017-01-19 14:02:16 INFO  MainApp - Program close
 2017-01-19 14:04:28 INFO  MainApp - Open program
 2017-01-19 14:04:52 INFO  MainApp - Program close
+2017-01-19 14:09:25 INFO  MainApp - Open program
+2017-01-19 14:09:25 ERROR MainApp - Catching
+java.io.FileNotFoundException: E:\SumDU\VI ����\JAVA\Task Manager\resources\View\TasksOverview.fxml (������� �� ������� ����� ��������� ����)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_102]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_102]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_102]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_102]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_102]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2440) ~[jfxrt.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2409) ~[jfxrt.jar:?]
+	at ua.sumdu.j2se.zaretsky.tasks.MainApp.initRootLayout(MainApp.java:125) ~[classes/:?]
+	at ua.sumdu.j2se.zaretsky.tasks.MainApp.start(MainApp.java:76) ~[classes/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_102]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_102]
+2017-01-19 14:10:01 INFO  MainApp - Open program
+2017-01-19 14:10:01 ERROR MainApp - Catching
+java.io.FileNotFoundException: E:\SumDU\VI курс\JAVA\Task Manager\resources\View\TasksOverview.fxml (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_102]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_102]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_102]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_102]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_102]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2440) ~[jfxrt.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2409) ~[jfxrt.jar:?]
+	at ua.sumdu.j2se.zaretsky.tasks.MainApp.initRootLayout(MainApp.java:125) ~[classes/:?]
+	at ua.sumdu.j2se.zaretsky.tasks.MainApp.start(MainApp.java:76) ~[classes/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_102]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_102]
+2017-01-19 14:10:22 INFO  MainApp - Open program
+2017-01-19 14:10:22 ERROR MainApp - Catching
+java.io.FileNotFoundException: E:\SumDU\VI курс\JAVA\Task Manager\resources\View\TasksOverview.fxml (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_102]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_102]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_102]
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90) ~[?:1.8.0_102]
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188) ~[?:1.8.0_102]
+	at java.net.URL.openStream(URL.java:1045) ~[?:1.8.0_102]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2440) ~[jfxrt.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2409) ~[jfxrt.jar:?]
+	at ua.sumdu.j2se.zaretsky.tasks.MainApp.initRootLayout(MainApp.java:125) ~[classes/:?]
+	at ua.sumdu.j2se.zaretsky.tasks.MainApp.start(MainApp.java:76) ~[classes/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_102]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_102]
+2017-01-19 14:11:13 INFO  MainApp - Open program
+2017-01-19 14:11:17 INFO  MainApp - Program close
