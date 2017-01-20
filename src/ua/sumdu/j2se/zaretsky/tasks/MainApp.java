@@ -107,7 +107,13 @@ public class MainApp extends Application {
             log.catching(e);
         }
 
+    }
 
+    public void refreshTasks(){
+        tasksData.clear();
+        for (Task t :tasks) {
+            tasksData.add(t);
+        }
     }
 
 

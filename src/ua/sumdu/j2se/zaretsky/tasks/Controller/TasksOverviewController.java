@@ -10,11 +10,16 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.FileChooser;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import ua.sumdu.j2se.zaretsky.tasks.MainApp;
 import ua.sumdu.j2se.zaretsky.tasks.Model.*;
 import ua.sumdu.j2se.zaretsky.tasks.Util.DateUtil;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.ParseException;
 import java.time.LocalDate;
 import java.util.Date;
 import java.util.Locale;
@@ -194,7 +199,7 @@ public class TasksOverviewController {
                 (startPeriod) > 0) {
 
 
-           mainApp.showAllTasksInPeriod(startPeriod, endPeriod);
+            mainApp.showAllTasksInPeriod(startPeriod, endPeriod);
         }
 
     }
@@ -204,7 +209,7 @@ public class TasksOverviewController {
      * Открывает диалоговое окно для изменения выбранной задачи.
      */
     @FXML
-    private void handleEditTask()  {
+    private void handleEditTask() {
         Task selectedTask = tasksTable.getSelectionModel().getSelectedItem();
 
         if (selectedTask != null) {
@@ -230,6 +235,72 @@ public class TasksOverviewController {
 
             alert.showAndWait();
         }
+    }
+
+    @FXML
+    private void handleSaveAs() {
+        FileChooser fileChooser = new FileChooser();
+
+        // Задаём фильтр расширений
+        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter(
+                "TXT files (*.txt)", "*.txt");
+        fileChooser.getExtensionFilters().add(extFilter);
+
+        // Показываем диалог сохранения файла
+        File file = fileChooser.showSaveDialog(mainApp.getPrimaryStage());
+
+        if (file != null) {
+            // Make sure it has the correct extension
+            if (!file.getPath().endsWith(".txt")) {
+                file = new File(file.getPath() + ".txt");
+            }
+            try {
+                TaskIO.writeText(MainApp.getTasks(), file);
+            } catch (IOException e) {
+                log.catching(e);
+                showError();
+            }
+        }
+    }
+
+    @FXML
+    private void loadTasksFromTxtFile() {
+        FileChooser fileChooser = new FileChooser();
+
+        // Задаём фильтр расширений
+        FileChooser.ExtensionFilter extFilter = new FileChooser.ExtensionFilter(
+                "TXT files (*.txt)", "*.txt");
+        fileChooser.getExtensionFilters().add(extFilter);
+
+        // Показываем диалог загрузки файла
+        File file = fileChooser.showOpenDialog(mainApp.getPrimaryStage());
+
+        if (file != null) {
+            try {
+                TaskIO.readText(MainApp.getTasks(), file);
+                mainApp.refreshTasks();
+            } catch (IOException e) {
+                //e.printStackTrace();
+                log.catching(e);
+                showError();
+            } catch (ParseException e) {
+                //e.printStackTrace();
+                log.catching(e);
+                showError();
+            }
+
+        }
+
+    }
+
+    private void showError() {
+        Alert alert = new Alert(Alert.AlertType.WARNING);
+        alert.initOwner(mainApp.getPrimaryStage());
+        alert.setTitle("Error");
+        alert.setHeaderText("Attention - some error");
+        //alert.setContentText("Please select a task in the table.");
+
+        alert.showAndWait();
     }
 }
 

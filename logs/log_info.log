@@ -354,3 +354,69 @@ java.io.FileNotFoundException: E:\SumDU\VI курс\JAVA\Task Manager\resources\
 2017-01-19 16:11:55 INFO  MainApp - Program close
 2017-01-19 16:12:07 INFO  MainApp - Open program
 2017-01-19 16:12:16 INFO  MainApp - Program close
+2017-01-20 22:56:47 INFO  MainApp - Open program
+2017-01-20 22:57:44 INFO  MainApp - Program close
+2017-01-20 23:07:48 INFO  MainApp - Open program
+2017-01-20 23:10:32 INFO  MainApp - Program close
+2017-01-20 23:20:27 INFO  MainApp - Open program
+2017-01-20 23:21:17 INFO  TasksOverviewController - EDIT task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day] TO "Task for every day" from [2017-01-18 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day] is inactive
+2017-01-20 23:21:31 INFO  TasksOverviewController - EDIT task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:20:00.000] to [2017-01-27 15:00:00.000] every [2 days] TO "Meat with friends in ""\ncafe""" from [2017-01-13 15:14:00.000] to [2017-01-19 15:00:00.000] every [2 days] is inactive
+2017-01-20 23:21:42 INFO  MainApp - Program close
+2017-01-20 23:21:47 INFO  MainApp - Open program
+2017-01-20 23:22:01 INFO  TasksOverviewController - DELETE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-27 22:00:00.000] every [2 minutes]
+2017-01-20 23:22:04 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:20:00.000] to [2017-01-27 15:00:00.000] every [2 days]
+2017-01-20 23:22:09 INFO  TasksOverviewController - DELETE task: "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-20 23:22:11 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day]
+2017-01-20 23:23:43 INFO  MainApp - Open program
+2017-01-20 23:23:51 INFO  TasksOverviewController - DELETE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-27 22:00:00.000] every [2 minutes]
+2017-01-20 23:23:53 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:20:00.000] to [2017-01-27 15:00:00.000] every [2 days]
+2017-01-20 23:23:55 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day]
+2017-01-20 23:23:57 INFO  TasksOverviewController - DELETE task: "Задача" from [2017-01-11 15:17:00.000] to [2017-01-14 17:00:00.000] every [5 minutes]
+2017-01-20 23:24:00 INFO  TasksOverviewController - DELETE task: "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-20 23:24:02 INFO  TasksOverviewController - DELETE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-27 22:00:00.000] every [2 minutes]
+2017-01-20 23:24:04 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day]
+2017-01-20 23:24:06 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:20:00.000] to [2017-01-27 15:00:00.000] every [2 days]
+2017-01-20 23:24:08 INFO  TasksOverviewController - DELETE task: "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-20 23:24:11 INFO  TasksOverviewController - DELETE task: "Задача" from [2017-01-11 15:17:00.000] to [2017-01-14 17:00:00.000] every [5 minutes]
+2017-01-20 23:24:12 INFO  MainApp - Program close
+2017-01-20 23:24:20 INFO  MainApp - Open program
+2017-01-20 23:24:56 INFO  MainApp - Program close
+2017-01-20 23:25:55 INFO  MainApp - Open program
+2017-01-20 23:26:00 INFO  TasksOverviewController - DELETE task: "Задача" from [2017-01-11 15:17:00.000] to [2017-01-14 17:00:00.000] every [5 minutes]
+2017-01-20 23:26:03 INFO  TasksOverviewController - DELETE task: "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-20 23:26:06 INFO  TasksOverviewController - DELETE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-27 22:00:00.000] every [2 minutes]
+2017-01-20 23:26:08 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:20:00.000] to [2017-01-27 15:00:00.000] every [2 days]
+2017-01-20 23:26:17 INFO  MainApp - Open program
+2017-01-20 23:26:33 INFO  MainApp - Open program
+2017-01-20 23:26:44 INFO  MainApp - Program close
+2017-01-20 23:26:53 INFO  MainApp - Open program
+2017-01-20 23:27:02 INFO  TasksOverviewController - DELETE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-27 22:00:00.000] every [2 minutes]
+2017-01-20 23:27:04 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day]
+2017-01-20 23:27:06 INFO  TasksOverviewController - DELETE task: "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-20 23:27:08 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:20:00.000] to [2017-01-27 15:00:00.000] every [2 days]
+2017-01-20 23:27:10 INFO  TasksOverviewController - DELETE task: "Задача" from [2017-01-11 15:17:00.000] to [2017-01-14 17:00:00.000] every [5 minutes]
+2017-01-20 23:27:12 INFO  TasksOverviewController - DELETE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-27 22:00:00.000] every [2 minutes]
+2017-01-20 23:27:15 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day]
+2017-01-20 23:27:16 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:20:00.000] to [2017-01-27 15:00:00.000] every [2 days]
+2017-01-20 23:27:19 INFO  TasksOverviewController - DELETE task: "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-20 23:27:21 INFO  TasksOverviewController - DELETE task: "Задача" from [2017-01-11 15:17:00.000] to [2017-01-14 17:00:00.000] every [5 minutes]
+2017-01-20 23:27:23 INFO  TasksOverviewController - DELETE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-27 22:00:00.000] every [2 minutes]
+2017-01-20 23:27:25 INFO  MainApp - Program close
+2017-01-20 23:28:11 INFO  MainApp - Open program
+2017-01-20 23:28:22 INFO  MainApp - Program close
+2017-01-20 23:28:47 INFO  MainApp - Open program
+2017-01-20 23:29:33 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day]
+2017-01-20 23:29:35 INFO  TasksOverviewController - DELETE task: "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-20 23:29:37 INFO  TasksOverviewController - DELETE task: "Задача" from [2017-01-11 15:17:00.000] to [2017-01-14 17:00:00.000] every [5 minutes]
+2017-01-20 23:29:39 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-18 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day] is inactive
+2017-01-20 23:29:41 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:14:00.000] to [2017-01-19 15:00:00.000] every [2 days] is inactive
+2017-01-20 23:29:43 INFO  TasksOverviewController - DELETE task: "New Task" from [2017-01-16 15:00:00.000] to [2017-01-27 22:00:00.000] every [2 minutes]
+2017-01-20 23:29:49 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day]
+2017-01-20 23:29:51 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:20:00.000] to [2017-01-27 15:00:00.000] every [2 days]
+2017-01-20 23:29:54 INFO  TasksOverviewController - DELETE task: "Задача 3" from [2017-01-13 13:11:00.000] to [2017-01-15 20:00:00.000] every [10 minutes]
+2017-01-20 23:29:56 INFO  TasksOverviewController - DELETE task: "Задача" from [2017-01-11 15:17:00.000] to [2017-01-14 17:00:00.000] every [5 minutes]
+2017-01-20 23:29:59 INFO  TasksOverviewController - DELETE task: "Task for every day" from [2017-01-16 15:00:00.000] to [2017-01-27 17:00:00.000] every [1 day]
+2017-01-20 23:30:04 INFO  TasksOverviewController - DELETE task: "Meat with friends in ""\ncafe""" from [2017-01-13 15:14:00.000] to [2017-01-19 15:00:00.000] every [2 days] is inactive
+2017-01-20 23:30:06 INFO  MainApp - Program close
+2017-01-20 23:34:24 INFO  MainApp - Open program
+2017-01-20 23:34:48 INFO  MainApp - Program close
