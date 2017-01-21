@@ -25,6 +25,7 @@ public class Detector extends Thread {
         this.tasks = tasks;
         this.notifyPeriodInMillis = notifyPeriodInMillis;
         this.mainApp = mainApp;
+        setDaemon(true);
     }
 
     @Override
@@ -44,7 +45,8 @@ public class Detector extends Thread {
             try {
                 Thread.sleep(PAUSE);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                System.out.println("Goodbye");
+                //e.printStackTrace();
             }
         }
     }

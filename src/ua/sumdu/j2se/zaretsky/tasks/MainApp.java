@@ -84,7 +84,6 @@ public class MainApp extends Application {
                 exit = true;
                 // System.out.println("Stage is closing");
                 log.info("Program close");
-                detector.stop();//close thread with notify
 
             }
         });

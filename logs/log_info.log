@@ -420,3 +420,14 @@ java.io.FileNotFoundException: E:\SumDU\VI курс\JAVA\Task Manager\resources\
 2017-01-20 23:30:06 INFO  MainApp - Program close
 2017-01-20 23:34:24 INFO  MainApp - Open program
 2017-01-20 23:34:48 INFO  MainApp - Program close
+2017-01-21 11:32:10 INFO  MainApp - Open program
+2017-01-21 11:33:34 INFO  TasksOverviewController - CREATE task: "ghfgh" from [2017-01-21 17:19:00.000] to [2017-01-27 00:00:00.000] every [20 minutes]
+2017-01-21 11:33:41 INFO  TasksOverviewController - EDIT task: "ghfgh" from [2017-01-21 17:19:00.000] to [2017-01-27 00:00:00.000] every [20 minutes] TO "ghfgh" from [2017-01-21 17:19:00.000] to [2017-01-27 00:00:00.000] every [8 hours 20 minutes]
+2017-01-21 11:39:31 INFO  MainApp - Open program
+2017-01-21 11:39:37 INFO  MainApp - Program close
+2017-01-21 11:48:44 INFO  MainApp - Open program
+2017-01-21 11:48:55 INFO  MainApp - Program close
+2017-01-21 11:55:10 INFO  MainApp - Open program
+2017-01-21 11:55:18 INFO  MainApp - Program close
+2017-01-21 11:57:16 INFO  MainApp - Open program
+2017-01-21 11:57:26 INFO  MainApp - Program close
